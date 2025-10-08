@@ -70,25 +70,25 @@ const appData = {
     },
     {
       "title": "Building Your First AI Voice Assistant in 30 Minutes",
-      "level": "Beginner",
+      "difficulty": "Beginner",
       "duration": "30 min read",
       "focus": "Practical implementation using open-source tools"
     },
     {
       "title": "AI Ethics in Practice: Responsible Model Development",
-      "level": "Intermediate",
+      "difficulty": "Intermediate",
       "duration": "45 min read",
       "focus": "Bias detection, fairness testing, ethical guidelines"
     },
     {
       "title": "From Data to Insights: No-Code AI Analytics Pipeline",
-      "level": "Beginner",
+      "difficulty": "Beginner",
       "duration": "25 min read",
       "focus": "Visual AI tools for automated data analysis"
     },
     {
       "title": "Advanced Prompt Engineering for Indian Languages",
-      "level": "Advanced",
+      "difficulty": "Advanced",
       "duration": "60 min read",
       "focus": "Hindi, Bengali, Tamil optimization with cultural context"
     },
@@ -120,7 +120,7 @@ const appData = {
     },
     {
       "title": "AI Market Reaches $500 Billion Milestone",
-      "date": "October 3, 2025",
+      "date": "2025-10-03",
       "category": "Market Analysis",
       "summary": "Global AI market continues unprecedented growth with new investments in enterprise solutions."
     },
@@ -144,7 +144,8 @@ const appData = {
     },
     {
       "title": "Sustainable AI: New Models Reduce Energy Consumption by 70%",
-      "date": "2025-10-05", "category": "Green Technology",
+      "date": "2025-10-05",
+      "category": "Green Technology",
       "summary": "Breakthrough optimization techniques drastically cut AI computational power needs." 
     },
     { 
@@ -155,7 +156,7 @@ const appData = {
     },
     {
       "title": "Google Unveils Advanced AI Search Features",
-      "date": "October 1, 2025",
+      "date": "2025-10-01",
       "category": "Technology",
       "summary": "Search giant introduces revolutionary AI-powered search capabilities for better user experience."
     }
