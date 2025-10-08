@@ -417,8 +417,8 @@ function filterByCategory(categoryName) {
 // Render latest news
 function renderLatestNews() {
   if (!elements.latestNews) return;
-  
-  const newsHTML = appData.news.map(article => `
+
+  const newsHTML = appData.news_articles.map(article => `
     <div class="news-card">
       <div class="news-header">
         <h3 class="news-title">${article.title}</h3>
@@ -428,15 +428,15 @@ function renderLatestNews() {
       <p class="news-summary">${article.summary}</p>
     </div>
   `).join('');
-  
+
   elements.latestNews.innerHTML = newsHTML;
 }
 
 // Render all news
 function renderAllNews() {
   if (!elements.allNews) return;
-  
-  const newsHTML = appData.news.map(article => `
+
+  const newsHTML = appData.news_articles.map(article => `
     <div class="news-card">
       <div class="news-header">
         <h3 class="news-title">${article.title}</h3>
@@ -445,13 +445,13 @@ function renderAllNews() {
       <div class="news-category">${article.category}</div>
       <p class="news-summary">${article.summary}</p>
       <p style="margin-top: 16px; color: var(--color-text-secondary); font-style: italic;">
-        This article provides comprehensive insights into the latest developments in AI technology. 
-        Our expert team analyzes market trends, technological breakthroughs, and industry implications 
+        This article provides comprehensive insights into the latest developments in AI technology.
+        Our expert team analyzes market trends, technological breakthroughs, and industry implications
         to keep you informed about the rapidly evolving AI landscape.
       </p>
     </div>
   `).join('');
-  
+
   elements.allNews.innerHTML = newsHTML;
 }
 
