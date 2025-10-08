@@ -58,12 +58,7 @@ const appData = {
     {"name": "Video", "count": 12, "color": "#06b6d4"}
   ],
   "tutorials": [
-    {
-      "title": "Getting Started with ChatGPT for Business",
-      "difficulty": "Beginner",
-      "duration": "15 min read",
-      "category": "Business"
-      {
+     {
   "title": "Automating Your Business with AI: Step-by-Step Guide",
   "difficulty": "Intermediate",
   "duration": "18 min read",
