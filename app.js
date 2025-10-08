@@ -114,7 +114,7 @@ const appData = {
   "news_articles": [
     {
       "title": "OpenAI Announces New GPT-5 Features",
-      "date": "October 5, 2025",
+      "date": "2025-10-05",
       "category": "Industry News",
       "summary": "Latest updates from OpenAI's developer conference revealing new capabilities and improvements."
     },
