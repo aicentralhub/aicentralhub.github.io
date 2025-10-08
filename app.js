@@ -56,6 +56,10 @@ const appData = {
     {"name": "Marketing", "count": 20, "color": "#ef4444"},
     {"name": "Productivity", "count": 22, "color": "#8b5cf6"},
     {"name": "Video", "count": 12, "color": "#06b6d4"}
+    { "name": "Regional Language AI", "tools": 15, "desc": "AI tools for Indian languages and cultural contexts." },
+    { "name": "Agriculture AI", "tools": 12, "desc": "Smart farming, crop monitoring, weather prediction solutions." },
+    { "name": "Education AI", "tools": 20, "desc": "Personalized learning for Indian curriculum." },
+    { "name": "Healthcare AI", "tools": 18, "desc": "Diagnostic and telemedicine solutions for Indian healthcare." }
   ],
   "tutorials": [
     {
@@ -63,6 +67,30 @@ const appData = {
       "difficulty": "Beginner",
       "duration": "15 min read",
       "category": "Business"
+    },
+    {
+      "title": "Building Your First AI Voice Assistant in 30 Minutes",
+      "level": "Beginner",
+      "duration": "30 min read",
+      "focus": "Practical implementation using open-source tools"
+    },
+    {
+      "title": "AI Ethics in Practice: Responsible Model Development",
+      "level": "Intermediate",
+      "duration": "45 min read",
+      "focus": "Bias detection, fairness testing, ethical guidelines"
+    },
+    {
+      "title": "From Data to Insights: No-Code AI Analytics Pipeline",
+      "level": "Beginner",
+      "duration": "25 min read",
+      "focus": "Visual AI tools for automated data analysis"
+    },
+    {
+      "title": "Advanced Prompt Engineering for Indian Languages",
+      "level": "Advanced",
+      "duration": "60 min read",
+      "focus": "Hindi, Bengali, Tamil optimization with cultural context"
     },
     {
       "title": "Advanced Prompt Engineering Techniques",
@@ -83,7 +111,7 @@ const appData = {
       "category": "Productivity"
     }
   ],
-  "news": [
+  "news_articles": [
     {
       "title": "OpenAI Announces New GPT-5 Features",
       "date": "October 5, 2025",
@@ -95,6 +123,35 @@ const appData = {
       "date": "October 3, 2025",
       "category": "Market Analysis",
       "summary": "Global AI market continues unprecedented growth with new investments in enterprise solutions."
+    },
+    { 
+      "title": "AI-Powered Quantum Computing Breakthrough Achieved in India", 
+      "date": "2025-10-08", 
+      "category": "Technology", 
+      "summary": "Indian researchers demonstrate quantum-AI hybrid system solving complex problems 100x faster."
+    },
+    { 
+      "title": "New Privacy-First AI Assistant Launches Without Data Collection", 
+      "date": "2025-10-07",
+      "category": "Privacy Tech",
+      "summary": "Revolutionary local-processing AI assistant ensuring complete user privacy."
+    },
+    { 
+      "title": "AI Revolutionizes Early Disease Detection in Rural Healthcare",
+      "date": "2025-10-06",
+      "category": "Healthcare AI",
+      "summary": "Mobile AI diagnostic tool achieves 95% accuracy using smartphone cameras." 
+    },
+    {
+      "title": "Sustainable AI: New Models Reduce Energy Consumption by 70%",
+      "date": "2025-10-05", "category": "Green Technology",
+      "summary": "Breakthrough optimization techniques drastically cut AI computational power needs." 
+    },
+    { 
+      "title": "AI Content Watermarking Standard Adopted Globally",
+      "date": "2025-10-04",
+      category": "Digital Ethics",
+      "summary": "Universal AI-generated content identification system implemented by major tech companies."
     },
     {
       "title": "Google Unveils Advanced AI Search Features",
