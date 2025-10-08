@@ -56,10 +56,10 @@ const appData = {
     {"name": "Marketing", "count": 20, "color": "#ef4444"},
     {"name": "Productivity", "count": 22, "color": "#8b5cf6"},
     {"name": "Video", "count": 12, "color": "#06b6d4"}
-    { "name": "Regional Language AI", "tools": 15, "desc": "AI tools for Indian languages and cultural contexts." },
-    { "name": "Agriculture AI", "tools": 12, "desc": "Smart farming, crop monitoring, weather prediction solutions." },
-    { "name": "Education AI", "tools": 20, "desc": "Personalized learning for Indian curriculum." },
-    { "name": "Healthcare AI", "tools": 18, "desc": "Diagnostic and telemedicine solutions for Indian healthcare." }
+    {"name": "Regional Language AI", "tools": 15, "desc": "AI tools for Indian languages and cultural contexts."},
+    {"name": "Agriculture AI", "tools": 12, "desc": "Smart farming, crop monitoring, weather prediction solutions."},
+    {"name": "Education AI", "tools": 20, "desc": "Personalized learning for Indian curriculum."},
+    {"name": "Healthcare AI", "tools": 18, "desc": "Diagnostic and telemedicine solutions for Indian healthcare."}
   ],
   "tutorials": [
     {
